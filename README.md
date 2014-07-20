@@ -19,7 +19,7 @@ Follow the steps below:
 
 6) Run the video on ffplay and watch the pixels light up.
 
-Note: //TODO
+**Note: //TODO**
 
 If you want to change the layout you also have to take care of addressing as well. The values from the video come from queue_picture method in ffplay.c
 
@@ -27,15 +27,15 @@ Currently cannot pass the ip and port via commandline for ffplay (will add them 
 
 Cannot parse the config for the pixel layout. Currently configured to a 16x5 [2x (8x5) neopixel shields] config.
 
-Documentation :
+**Documentation :**
 
 OSC Receiver
-	libOSC/ 
-	htmsocket.c
-	htmsocket.h 
+-libOSC/ 
+-htmsocket.c
+-htmsocket.h 
 
 OSC Server
-	test.c (server port hard coded as 9110 on line 594 sorry again)
+-test.c (server port hard coded as 9110 on line 594 sorry again)
 
 
 
